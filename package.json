@@ -1,0 +1,18 @@
+{
+  "name": "asset-tracker",
+  "version": "0.0.1",
+  "description": "A pouchdb react and redux platform for tracking storage and retrieval of items",
+  "main": "js/pouch-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Rutledge",
+  "devDependencies": {
+    "express": "^4.13.x",
+    "pouchdb": "^5.1.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.0"
+  }
+}

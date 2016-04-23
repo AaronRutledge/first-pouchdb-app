@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>PouchDb Getting Started</title>
+
+  <!-- Bootstrap -->
+  <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+<h1>A New Storage It</h1>
+    <form>
+      <fieldset class="form-group">
+        <label for="inputName">Item name</label>
+        <input type="email" class="form-control" id="inputName" placeholder="Enter email">
+        <small class="text-muted">A friendly short name for the item.</small>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="inputType">Item type</label>
+        <input type="email" class="form-control" id="inputType" placeholder="Enter email">
+        <small class="text-muted">Item type</small>
+         <small class="text-muted">Type of item</small>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="textAreaNotes">Item notes</label>
+        <textarea class="form-control" id="textAreaNotes" rows="3"></textarea>
+      </fieldset>
+      <fieldset class="form-group">
+        <label for="itemPicture">Picture</label>
+        <input type="file" class="form-control-file" id="itemPicture">
+        <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+      </fieldset>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <script src="../bower_components/pouchdb/dist/pouchdb.min.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../js/base.js"></script>
+    <script src="../js/app.js"></script>
+  </div>
+</body>
+
+</html>
